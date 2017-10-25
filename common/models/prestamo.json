@@ -1,0 +1,43 @@
+{
+  "name": "prestamo",
+  "plural": "prestamos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "cod_usuario": {
+      "type": "number",
+      "required": true
+    },
+    "cod_libro": {
+      "type": "number",
+      "required": true
+    },
+    "cod_tesis_tesina": {
+      "type": "number",
+      "required": true
+    },
+    "fecha_emision": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_entrega": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_maxima": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

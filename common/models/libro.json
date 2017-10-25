@@ -1,0 +1,46 @@
+{
+  "name": "libro",
+  "plural": "libros",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cod_libro": {
+      "type": "number",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "edicio": {
+      "type": "string",
+      "required": true
+    },
+    "sbl": {
+      "type": "string",
+      "required": true
+    },
+    "idioma": {
+      "type": "string",
+      "required": true
+    },
+    "anio": {
+      "type": "string",
+      "required": true
+    },
+    "num_ingreso": {
+      "type": "number"
+    },
+    "fecha_ingreso": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

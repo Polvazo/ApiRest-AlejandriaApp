@@ -1,0 +1,34 @@
+{
+  "name": "opinion",
+  "plural": "opiniones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "cod_usuario": {
+      "type": "number",
+      "required": true
+    },
+    "cod_libro": {
+      "type": "number",
+      "required": true
+    },
+    "comentario": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

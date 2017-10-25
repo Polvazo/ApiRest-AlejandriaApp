@@ -1,0 +1,27 @@
+{
+  "name": "tesis_tesina_por_categoria",
+  "plural": "tesis_por_categoria",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "cod_categoria": {
+      "type": "number",
+      "required": true
+    },
+    "cod_tesis_tesina": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

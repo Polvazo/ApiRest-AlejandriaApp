@@ -1,0 +1,27 @@
+{
+  "name": "tesis_tesina_por_autor_tesis",
+  "plural": "tesis_tesina_por_autor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "cod_autor_tesis": {
+      "type": "number",
+      "required": true
+    },
+    "cod_tesis_tesina": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

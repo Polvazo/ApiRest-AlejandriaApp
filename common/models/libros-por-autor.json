@@ -1,0 +1,27 @@
+{
+  "name": "libros_por_autor",
+  "plural": "librosautor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "cod_autor": {
+      "type": "number",
+      "required": true
+    },
+    "cod_libro": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

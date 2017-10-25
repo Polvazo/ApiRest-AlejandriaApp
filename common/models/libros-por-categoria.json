@@ -1,0 +1,27 @@
+{
+  "name": "libros_por_categoria",
+  "plural": "libroscategoria",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "cod_categoria": {
+      "type": "number",
+      "required": true
+    },
+    "cod_libro": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
